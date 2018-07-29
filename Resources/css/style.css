@@ -72,11 +72,15 @@ div.right {
   height: 300px;
 }
 .glass_image .mother {
+  display: flex;
   background-image: url("../images/glass.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 .earth_image {
   display: flex;
